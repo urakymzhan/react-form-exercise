@@ -1,21 +1,29 @@
 import "./App.css"; 
 
 function App() {
-  // init states and store todos
+  // 1. init states and store todos
+    // fetch todos, carefully check data (it has comleted attribute in it)
+    // API: http://jsonplaceholder.typicode.com/todos
 
-  // fetch todos, carefully check data (it has comleted attribute in it)
-  // API: http://jsonplaceholder.typicode.com/todos
-
-  // handle user search input
-  // Hint: onChange, event.target.value
+  // 2. handle user search input
+    // Hint: onChange, event.target.value
 
 
-  // filter data based on search input
-  
+  // 3. filter data based on search input
+    // Hint: filter()
 
-  // filter data to show completed only
+  // 4. filter data to show completed only
+    // filter()
 
-  // change null values below with your code
+  // HINTS:
+    // change null values below with your code
+    // use completed attribute from API data
+    // on single todo click you can find single todo from data and update only it's completed value 
+
+  // Things to consider:
+    // What if your doesn't arrive from API
+      // how do you handle it?
+    
   return (
     <div className="App">
       <header className="App-header">
